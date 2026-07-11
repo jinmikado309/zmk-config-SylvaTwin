@@ -75,13 +75,13 @@
 
         layer_1 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                                  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS      &kp EQUAL         &kp INTERNATIONAL_3
-&trans  &trans  &trans  &trans  &trans  &trans                                  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp AT         &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SEMICOLON  &kp SINGLE_QUOTE  &kp BSLH
-&trans  &trans  &trans  &trans  &trans  &kp LEFT_SHIFT  &trans  &studio_unlock  &kp NUMBER_0  &kp COMMA     &kp DOT       &none          &none             &kp INTERNATIONAL_1
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                            &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS      &kp EQUAL         &kp INTERNATIONAL_3
+&trans  &trans        &trans        &trans        &trans        &trans                                  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp AT         &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans  &trans        &trans        &trans        &trans        &trans          &trans  &trans          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SEMICOLON  &kp SINGLE_QUOTE  &kp BSLH
+&trans  &trans        &trans        &trans        &trans        &kp LEFT_SHIFT  &trans  &studio_unlock  &none         &kp NUMBER_0  &kp COMMA     &kp PERIOD     &none             &kp INTERNATIONAL_1
             >;
 
-            sensor-bindings = <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
+            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
         layer_2 {
