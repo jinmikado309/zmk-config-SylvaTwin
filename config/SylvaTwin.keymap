@@ -57,6 +57,11 @@
             bindings = <&kp LC(X)>;
             key-positions = <40 26>;
         };
+
+        prev_click {
+            bindings = <&mkp MB4>;
+            key-positions = <29 30>;
+        };
     };
 
     keymap {
